@@ -64,10 +64,12 @@ function shopping(results) {
 
         //Testing update
        
-        if (ans.qty > results[ans.id-1].stock_quantity) {
+        // IF requested qty unavailable
+        if (ans.qty > results[ans.id-1].stock_quantity) { 
             console.log("Not enough in stock");
             connection.end();
         }
+        // IF request qty available
         else if (ans.qty <= results[ans.id-1].stock_quantity) {
             console.log("Order placed");
 

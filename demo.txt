@@ -1,0 +1,15 @@
+
+—— please see img folder for screen shots of functioning project —- 
+
+The app starts out by asking the user for product id and desired quantity.
+
+see - bamazon1 and bamazon2
+
+Then the order is processed successfully and 7 Tinker Toys are removed from the mysql database.
+
+see - bamazon3
+
+A new order is placed for more Tinker Toys but this time the terminal returns a message saying there are not enough in stock.
+
+see - bamazon4 and bamazon5
+
